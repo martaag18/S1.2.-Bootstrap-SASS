@@ -113,6 +113,9 @@ body{
 
 @media screen and (max-width:900px){
 
+    body{
+        background-color: green;
+    }
  
     .header{
         display: flex;
@@ -141,6 +144,9 @@ body{
 
 @media screen and (max-width:600px) {
 
+    body{
+        background-color: greenyellow;
+    }
 
     .articles{
         display: flex;
