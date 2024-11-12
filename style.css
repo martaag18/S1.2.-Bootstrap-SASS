@@ -47,6 +47,20 @@ body{
     
 }
 
+.logo:hover{
+    animation: mianimacion 0.5s forwards; /* Nombre, duración y comportamiento */
+}
+
+@keyframes mianimacion {
+
+100%{
+    background-color: purple;
+    width: 30%;
+    height: 75px;
+}  
+    
+}
+
 .banner{
     margin-top: 0;
     margin: 10px;
