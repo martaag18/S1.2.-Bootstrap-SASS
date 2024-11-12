@@ -22,6 +22,7 @@ body{
     background-color: white;
     padding: 20px;
   }
+
 .first{
     background-color: black;
     border: 12px solid black;
@@ -108,4 +109,32 @@ body{
     border: 14px solid black;
     padding:10px;
     margin: 0;
+}
+
+@media screen and (max-width:900px){
+
+ 
+    .header{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo, .nav, .social{
+        width: 100%;
+        
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+    }
+  
+    .articles{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ads{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
 }
