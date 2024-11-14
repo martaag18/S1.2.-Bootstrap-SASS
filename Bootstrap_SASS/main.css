@@ -11853,7 +11853,8 @@ textarea.form-control-lg {
 }
 
 .nav-link {
-  font-weight: bold;
+  color: black;
+  padding: 20px;
 }
 
 .btn-secondary {
@@ -11863,6 +11864,17 @@ textarea.form-control-lg {
 
 .btn {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid #FA5959; /* Línea roja debajo de la pestaña activa */
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.nav-tabs {
+  width: 90%; /* Ajusta el ancho según lo necesites */
 }
 
 /*# sourceMappingURL=main.css.map */

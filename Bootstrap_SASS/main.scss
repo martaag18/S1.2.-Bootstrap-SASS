@@ -1,4 +1,5 @@
 // Definir los colores principales y secundarios
+$nav-tabs-link-color: #000; // Cambia el color de las pestañas
 $primary: #5265E1; // Color principal
 $secondary: #FA5959; // Color secundario
 
@@ -15,8 +16,10 @@ $secondary: #FA5959; // Color secundario
 }
 
 .nav-link{
-    font-weight: bold;
+    color:black;
+    padding: 20px;
 }
+
 
 
 .btn-secondary{
@@ -26,4 +29,17 @@ $secondary: #FA5959; // Color secundario
 
 .btn{
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 3px solid $secondary; /* Línea roja debajo de la pestaña activa */
+  border-top: none;
+  border-right:none;
+  border-left:none;
+
+}
+
+.nav-tabs {
+   
+    width: 90%; /* Ajusta el ancho según lo necesites */
 }
