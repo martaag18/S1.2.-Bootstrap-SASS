@@ -11895,4 +11895,9 @@ textarea.form-control-lg {
   border-top: 5px dotted #6c757d;
 }
 
+.footer-font, .footer-bg {
+  background-color: #3f4d78;
+  font-family: "Courier New", Courier, monospace;
+}
+
 /*# sourceMappingURL=main.css.map */
