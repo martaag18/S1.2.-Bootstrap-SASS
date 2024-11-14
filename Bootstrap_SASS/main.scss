@@ -40,6 +40,18 @@ $secondary: #FA5959; // Color secundario
 }
 
 .nav-tabs {
-   
-    width: 90%; /* Ajusta el ancho según lo necesites */
+    width: 90%; 
+}
+
+.custom-card{
+    border-radius: 15px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05); 
+}
+
+.card-img-top { /* Ajusto tamaño imágenes */
+    width: 120px; 
+    height: 120px;
+}
+.dotted-line {
+    border-top: 5px dotted #6c757d;
 }
