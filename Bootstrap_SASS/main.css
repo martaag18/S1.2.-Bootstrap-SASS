@@ -11844,6 +11844,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-primary {
+  background-color: #5265E1;
+}
+
 .btn-login {
   background-color: #FA5959;
   color: white;

@@ -6,6 +6,10 @@ $secondary: #FA5959; // Color secundario
 // Importar Bootstrap después de definir las variables
 @import "node_modules/bootstrap/scss/bootstrap";
 
+.btn-primary {
+    background-color: $primary;
+}
+
 .btn-login{
     background-color: #FA5959;
     color:white;
