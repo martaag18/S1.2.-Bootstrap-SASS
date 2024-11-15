@@ -11,24 +11,18 @@ $secondary: #FA5959; // Color secundario
 }
 
 .btn-login{
-    background-color: #FA5959;
+    background-color: $secondary;
     color:white;
-    padding: 10px 20px;
     border-radius: 8px;
-    width: 150px;
-
+    width: 140px;
+    height: 60px;
 }
-
 .nav-link{
-    color:black;
     padding: 20px;
 }
-
-
-
 .btn-secondary{
     background-color: lightgrey;
-    border: 2px solid #d1d1d1; 
+    border: 2px solid #d1d1d1;
 }
 
 .btn{
@@ -63,4 +57,40 @@ $secondary: #FA5959; // Color secundario
 .footer-font, .footer-bg {
     background-color: #3f4d78; 
     font-family: 'Courier New', Courier, monospace;
+}
+/* HOOVER */
+
+.btn-login:hover{
+    border: 2px solid $secondary;
+}
+.nav-item .nav-link:hover {
+    color: $secondary !important;
+    border:none;
+
+}
+.nav-link.active:hover{
+    color: $secondary;;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: $primary;
+}
+.btn-secondary:hover{
+    background-color: white;
+    border-color: gray;
+}
+.accordion-button:hover{
+    color:  $secondary;;
+}
+.btn-danger:hover{
+    background-color: white;
+    color: $secondary;;
+}
+
+.logoFooter { /* He modificado el color del SVG --> currentColor (para poder manipularlo en CSS)*/
+    color: white; 
   }
+.logoFooter:hover {
+    color: $secondary; 
+  }
+ 
